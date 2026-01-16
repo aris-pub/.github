@@ -16,7 +16,7 @@ A web-native preprint server with format freedom. Publish from Typst, Quarto, My
 ### [RSM Studio](https://github.com/aris-pub/studio) — Collaborative Editor
 Reference implementation and collaborative editor for RSM (Readable Science Markup). Write semantic documents that preserve meaning and render beautifully everywhere.
 
-**Tech:** Python • TypeScript • Collaborative Editing
+**Tech:** Python • VueJS • Collaborative Editing
 **Status:** Development
 **Links:** [Live Site](https://rsm.studio)
 
@@ -25,42 +25,6 @@ The markup language powering semantic, portable academic documents. Lightweight 
 
 **Tech:** Python • Tree-sitter
 **Status:** Active Development
-
-<br>
-
-## Quick Start
-
-### Try Press with Example Papers
-```bash
-git clone https://github.com/aris-pub/examples-press.git
-cd examples-press
-
-# Try the Typst example
-cd typst
-pandoc spectral_theorem.typ -s -o spectral_theorem.html --mathml
-
-# Try the Quarto example
-cd ../quarto
-quarto render iris_analysis.qmd
-
-# Try the Jupyter example
-cd ../jupyter
-jupyter nbconvert --to html particle_physics.ipynb --embed-images
-
-# Try the RSM example
-cd ../rsm
-pip install rsm-markup==0.4.1
-uv run rsm-build damped_oscillators.rsm --css damped_oscillators.css --standalone -o damped_oscillators
-```
-
-### Run Press Locally
-```bash
-git clone https://github.com/aris-pub/press.git
-cd press
-cp .env.example .env  # Configure DATABASE_URL
-just init             # Setup and seed database
-just dev              # Start development server
-```
 
 <br>
 
@@ -87,16 +51,6 @@ We welcome contributions across all projects:
 - **RSM**: Core language development. Proposals and improvements welcome.
 
 See individual repository `CONTRIBUTING.md` files for specific guidelines.
-
-<br>
-
-## Tech Stack Highlights
-
-- **Backend**: FastAPI, SQLAlchemy 2.0 async, PostgreSQL, Alembic
-- **Frontend**: HTMX, Jinja2 components, vanilla JS, modern CSS
-- **Testing**: pytest-asyncio, Playwright, httpx
-- **Infrastructure**: Fly.io, Supabase, GitHub Actions
-- **Dev Tools**: uv, just, ruff, pre-commit hooks
 
 <br>
 
