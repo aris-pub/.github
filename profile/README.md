@@ -60,13 +60,10 @@ See individual repository `CONTRIBUTING.md` files for specific guidelines.
 
 **Studio** and **RSM** are community-maintained reference implementations, with bug reports and maintenance contributions accepted.
 
-We're supported by community donations and academic grants, not venture capital. This funding model lets us prioritize researcher and developer needs over investor returns.
-
 <br>
 
 ## Community
 
-- **Zulip Chat**: [aris-pub.zulipchat.com](https://aris-pub.zulipchat.com/) — Real-time discussions, support, architecture decisions
 - **Blog**: [aris.pub/blog](https://aris.pub/blog) — Development updates, technical deep-dives
 - **Email**: [hello@aris.pub](mailto:hello@aris.pub) — Direct contact
 
@@ -86,6 +83,6 @@ LaTeX and PDF were revolutionary for print. It's time to build the next generati
 
 **Building tools as thoughtful as the knowledge they preserve.**
 
-[Browse Projects](https://github.com/orgs/aris-pub/repositories) • [Join Community](https://aris-pub.zulipchat.com/) • [Visit aris.pub](https://aris.pub)
+[Browse Projects](https://github.com/orgs/aris-pub/repositories) • [Contact](https://aris.pub/contact/) • [Visit aris.pub](https://aris.pub)
 
 </div>
